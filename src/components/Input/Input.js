@@ -8,6 +8,7 @@ const Input = ({
   placeholder,
   multiline = false,
   secureTextEntry = false,
+  maxLength = 0,
 }) => {
   return (
     <TextInput
@@ -17,6 +18,7 @@ const Input = ({
       placeholder={placeholder}
       multiline={multiline}
       secureTextEntry={secureTextEntry}
+      maxLength={maxLength}
     />
   );
 };

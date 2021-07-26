@@ -7,7 +7,7 @@ export default StyleSheet.create({
   },
   locationContainer: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ededed',
     justifyContent: 'center',
     alignItems: 'center',
     borderTopLeftRadius: 10,
@@ -18,11 +18,15 @@ export default StyleSheet.create({
   },
   commentContainer: {
     flex: 1.5,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
     padding: 10,
-    backgroundColor: '#987070',
+    backgroundColor: '#e3dd9a',
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
+  },
+  postDate: {
+    color: '#9e9e9e',
+    position: 'absolute',
+    bottom: 2,
+    right: 10,
   },
 });

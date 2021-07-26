@@ -17,10 +17,10 @@ const PostCard = ({onPress, data}) => {
             <Text style={styles.locationName}>{data.location_name}</Text>
           </View>
         </TouchableOpacity>
+        <Text style={styles.postDate}>{date}</Text>
       </View>
       <View style={styles.commentContainer}>
         <Text>{data.comment}</Text>
-        <Text>{date}</Text>
       </View>
     </View>
   );

@@ -4,6 +4,15 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFAB73',
   },
+  mapViewContainer: {
+    flex: 1,
+    margin: 15,
+  },
+  loadingContainer: {
+    height: 100,
+    width: 100,
+    alignSelf: 'center',
+  },
   inputContainer: {
     justifyContent: 'center',
     margin: 30,

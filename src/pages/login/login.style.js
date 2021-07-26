@@ -9,4 +9,9 @@ export default StyleSheet.create({
     margin: 30,
     alignSelf: 'center',
   },
+  errorMessage: {
+    fontSize: 10,
+    color: 'red',
+    marginLeft: 10,
+  },
 });
